@@ -76,12 +76,8 @@ export default function End() {
             </li>
           </ul>
         </div>
-        <div className="col-lg-4 mb-4 mb-lg-0 pl-10 h-full">
-          <img
-            src="https://preview.colorlib.com/theme/homey/images/ximg_portrait_1.jpg.pagespeed.ic.e8w00GWuiQ.webp"
-            alt="Image"
-            className=" w-80 h-full max-h-screen rounded-t-lg"
-          />
+        <div className="col-lg-4 mb-4 mb-lg-0 pl-10 h-full w-80 h-full max-h-screen rounded-t-lg">
+      
         </div>
         <div className="flex col-lg-4">
           <h3 className="block text-base max-h-screen mb-4 text-orange-500 pb-72 pl-7">

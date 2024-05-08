@@ -35,11 +35,11 @@ export default function Slider(props) {
               return (
                 <Carousel.Item key={index}>
                   <div className="mb-10 h-full m-0 pt-20">
-                    <div>
+                    <div style={{ width: '100%', height: 0, paddingTop: '75%', position: 'relative', overflow: 'hidden' }}>
                       <img
                         src={each.imgURL}
                         alt="image real estate"
-                        className="rounded-lg"
+                        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', borderRadius: '0.5rem' }}
                       />
                     </div>
                     <div>

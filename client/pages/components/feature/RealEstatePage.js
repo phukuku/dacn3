@@ -47,15 +47,15 @@ export default function RealEstatePage({ data }) {
             className="flex items-center justify-center"
             key={property.RealEstateId}
           >
-            <div className="mb-10 w-full p-4">
-              <div>
-                <img
-                  src={property.imgURL}
-                  alt="image real estate"
-                  className="rounded-lg"
-                />
-              </div>
-              <div>
+             <div className="mb-10 w-full p-4">
+                    <div style={{ width: '100%', height: 0, paddingTop: '75%', position: 'relative', overflow: 'hidden' }}>
+                      <img
+                      src={property.imgURL}
+                     alt="image real estate"
+                        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', borderRadius: '0.5rem' }}
+                      />
+                    </div>
+                    <div>
                 <div>
                   <Link
                     href="/product/[id]"
